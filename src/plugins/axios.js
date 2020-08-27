@@ -38,7 +38,7 @@ _axios.interceptors.response.use(
     return Promise.reject(error);
   }
 );
-
+/** no-unused-vars **/
 Plugin.install = function(Vue, options) {
   Vue.axios = _axios;
   window.axios = _axios;
