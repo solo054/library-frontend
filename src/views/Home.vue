@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import BookForm from "../components/BookForm";
+import BookForm from "@/components/BookForm";
 
 export default {
   name: 'Home',

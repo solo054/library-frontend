@@ -4,6 +4,7 @@
       <h2>add new Book</h2>
     </v-card-title>
    <v-card-text>
+     <v-text-field label="Title"></v-text-field>
      <v-text-field label="Author"></v-text-field>
      <v-text-field label="ISBN"></v-text-field>
      <v-text-field label="Language"></v-text-field>
