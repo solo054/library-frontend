@@ -38,7 +38,8 @@ _axios.interceptors.response.use(
     return Promise.reject(error);
   }
 );
-/** no-unused-vars **/
+// Disabling a rule on a line
+// eslint-disable-next-line no-unused-vars
 Plugin.install = function(Vue, options) {
   Vue.axios = _axios;
   window.axios = _axios;
